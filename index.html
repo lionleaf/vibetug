@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boats & Nature - An Interactive Art Piece</title>
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+  <div id="canvas-container"></div>
+
+  <div class="overlay">
+    <h1 class="title">Stormy Seas</h1>
+    <p class="subtitle">Navigate the turbulent waters</p>
+    <p class="instructions">WASD or Arrow Keys to drive • Mouse to look around</p>
+  </div>
+
+  <div class="controls-hud">
+    <div class="control-item">
+      <span class="key">W/↑</span> Forward
+    </div>
+    <div class="control-item">
+      <span class="key">S/↓</span> Backward
+    </div>
+    <div class="control-item">
+      <span class="key">A/←</span> Turn Left
+    </div>
+    <div class="control-item">
+      <span class="key">D/→</span> Turn Right
+    </div>
+    <div class="control-item">
+      <span class="key">R</span> Pay Out Wire
+    </div>
+    <div class="control-item">
+      <span class="key">F</span> Haul In Wire
+    </div>
+  </div>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./node_modules/three/build/three.module.js",
+        "three/examples/jsm/": "./node_modules/three/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
