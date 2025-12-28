@@ -1,5 +1,7 @@
 # Tranquil Waters - Interactive Boats & Nature
 
+A quick test project letting a friend try vibecoding an interactive THREE.js site.
+
 A dreamy, interactive art piece featuring a boat floating on water surrounded by nature. Built with Three.js and featuring a soft, ethereal aesthetic with pastel colors and gentle animations.
 
 ## Features
